@@ -2288,6 +2288,40 @@ pre code {
     margin-left: 0
 }
 
+/* Correction du footer */
+
+.col-sm-3{
+    float: left
+}
+
+.col-sm-3 {
+    width: 25%
+}
+
+.col-sm-4{
+    color: white;
+    font-weight: 600;
+}
+
+.col-sm-4 > ul {
+    padding-inline-start: 0;
+}
+
+.col-sm-4 > ul > li > a {
+    color: white !important;
+}
+
+.col-sm-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-sm-12 > .row:nth-child(2){
+    width: 100%;
+}
+
 @media (min-width:768px) {
     .col-sm-1,
     .col-sm-10,
@@ -2306,6 +2340,17 @@ pre code {
     .col-sm-12 {
         width: 100%
     }
+
+    /* Correction du footer */
+
+    .col-sm-12 > .row:nth-child(3){
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 33%;
+    }
+
     .col-sm-11 {
         width: 91.66666667%
     }
