@@ -2309,10 +2309,6 @@ pre code {
     width: 100%;
 }
 
-.col-sm-12 > h2{
-    font-weight: 700;
-}
-
 @media (min-width:768px) {
     .col-sm-1,
     .col-sm-10,
