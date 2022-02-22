@@ -25,17 +25,17 @@
 <meta property="twitter:description" content="La chouette agence est une entreprise de web design situé sur Lyon, notre objectif et d'aider les entreprises à devenir attractive et visible sur internet">
 <meta property="twitter:image" content="./img/META.png">
 
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-min.css">
+	<link rel="stylesheet" type="text/css" href="style-min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome-min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line-min.css">
 
 
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<script src="./js/jquery-2.1.0-min.js"></script>
+	<script src="./js/bootstrap-min.js"></script>
+	<script src="./js/blocs-min.js"></script>
+	<script src="./js/jqBootstrapValidation-min.js"></script>
+	<script src="./js/formHandler-min.js"></script>
 
 
 	<!-- Analytics -->
@@ -56,13 +56,13 @@
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
 								alt="atlanta web design logo" height="40" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
-							data-target=".navbar-1">
+							data-target=".navbar-1" role="menu">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
 								class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-						<ul class="site-navigation nav navbar-nav">
+						<ul class="site-navigation nav navbar-nav" role="navigation">
 							<li>
 								<a href="index.html">Accueil</a>
 							</li>
@@ -143,13 +143,13 @@
 		<!-- bloc-7 END -->
 
 		<!-- ScrollToTop Button -->
-		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" role="button" aria-label="bouton qui vous ramène en haut de la page"><span
 				class="fa fa-chevron-up"></span></a>
 		<!-- ScrollToTop Button END-->
 
 
 		<!-- Footer - bloc-8 -->
-		<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
@@ -181,7 +181,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</footer>
 		<!-- Footer - bloc-8 END -->
 
 	</div>
